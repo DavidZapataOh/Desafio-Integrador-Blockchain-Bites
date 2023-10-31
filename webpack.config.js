@@ -19,4 +19,9 @@ module.exports = {
     filename: "[name].bundle.js",
     clean: true,
   },
+  resolve: {
+    fallback: {
+      crypto: false
+    }
+  }
 };
